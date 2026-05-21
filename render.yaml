@@ -30,5 +30,5 @@ services:
         value: public, max-age=0, must-revalidate
     routes:
       - type: rewrite
-        source: /(?!.*\.).*
+        source: /*
         destination: /index.html
